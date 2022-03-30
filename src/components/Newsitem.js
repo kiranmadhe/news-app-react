@@ -8,7 +8,7 @@ export default class Newsitem extends Component {
             <>
 
                 <div className="card" style={{ width: '18rem' }}>
-                    <img src="https://www.investing.com/news/economy/asian-shares-gain-as-boj-defends-ultraeasy-stance-oil-eases-on-shanghai-lockdown-2793524" className="card-img-top" alt="..." />
+                    <img src="https://techcrunch.com/wp-content/uploads/2020/01/GettyImages-1097990286.jpg?" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{description}</p>

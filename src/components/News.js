@@ -5,17 +5,69 @@ export default class News extends Component {
   render() {
     return (
       <>
-    <div>This is News </div>
+    
     <div className="container">
-    <Newsitem title ="main news"/>
-    <Newsitem/>
-    <Newsitem/>
-    <Newsitem/>
-    <Newsitem/>
-    <Newsitem/>
-    <Newsitem/>
-    <Newsitem/>
-    <Newsitem/>
+    <div className="row">
+      <div className="col-md-4">
+      <Newsitem title ="main news" description="This is news description"/>
+      </div>
+      <div className="col-md-4">
+      <Newsitem title ="main news" description="This is news description"/>
+      </div>
+      <div className="col-md-4">
+      <Newsitem title ="main news" description="This is news description"/>
+      </div>
+    </div>
+   
+    
+    </div>
+
+    <div className="container">
+    <div className="row">
+      <div className="col-md-4">
+      <Newsitem title ="main news" description="This is news description"/>
+      </div>
+      <div className="col-md-4">
+      <Newsitem title ="main news" description="This is news description"/>
+      </div>
+      <div className="col-md-4">
+      <Newsitem title ="main news" description="This is news description"/>
+      </div>
+    </div>
+   
+    
+    </div>
+
+    <div className="container">
+    <div className="row">
+      <div className="col-md-4">
+      <Newsitem title ="main news" description="This is news description"/>
+      </div>
+      <div className="col-md-4">
+      <Newsitem title ="main news" description="This is news description"/>
+      </div>
+      <div className="col-md-4">
+      <Newsitem title ="main news" description="This is news description"/>
+      </div>
+    </div>
+   
+    
+    </div>
+
+    <div className="container">
+    <div className="row">
+      <div className="col-md-4">
+      <Newsitem title ="main news" description="This is news description"/>
+      </div>
+      <div className="col-md-4">
+      <Newsitem title ="main news" description="This is news description"/>
+      </div>
+      <div className="col-md-4">
+      <Newsitem title ="main news" description="This is news description"/>
+      </div>
+    </div>
+   
+    
     </div>
 
       </>
