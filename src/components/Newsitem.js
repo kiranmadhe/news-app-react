@@ -3,13 +3,14 @@ import React, { Component } from 'react'
 export default class Newsitem extends Component {
     render() {
 
-        let {title, description,newsUrl, imageUrl} = this.props;
+        let {title, description,newsUrl, imageUrl, author} = this.props;
         return (
             <>
 
                 <div className="card" style={{ width: '18rem' }}>
                     <img src={imageUrl} className="card-img-top" alt="..." />
                     <div className="card-body">
+                        <h3 className="card-title">{author}</h3>
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{description}</p>
                         <a href={newsUrl} target="_blank" className="btn btn-primary">Read more</a>

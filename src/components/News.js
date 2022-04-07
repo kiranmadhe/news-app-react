@@ -83,7 +83,7 @@ export default class News extends Component {
             {this.state.articles.map((element) => {
               return <div className="col-md-4" key={element.url}>
 
-                <Newsitem title={element.title ? element.title : " "} description={element.description ? element.description : " "} imageUrl={element.urlToImage ? element.urlToImage : "https://images.cnbctv18.com/wp-content/uploads/2019/10/SENSEX_NSE_nifty_BSE_Stock-market-1019x573.jpg"} newsUrl={element.url}
+                <Newsitem author={element.author ? element.author :" "} title={element.title ? element.title : " "} description={element.description ? element.description : " "} imageUrl={element.urlToImage ? element.urlToImage : "https://images.cnbctv18.com/wp-content/uploads/2019/10/SENSEX_NSE_nifty_BSE_Stock-market-1019x573.jpg"} newsUrl={element.url}
                 />
               </div>
             })}
